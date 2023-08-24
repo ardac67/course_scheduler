@@ -1,0 +1,64 @@
+#mainBody{
+    margin-top: 1%;
+    padding-left: 1%;
+    padding-right: 2%;
+}
+#schedule{
+    margin-left: 10px;
+}
+#checkDepartment{
+    margin-left: 10px;
+}
+#coursesDiv{
+    font-size: 0.9rem;
+}
+#page-top{
+    font-size: 0.8rem;
+}
+.col-sm-2{
+    padding-right: 0px;
+    padding-left: 2px;
+}
+.button-89 {
+
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 9px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
+ .carousel-control-prev,
+  .carousel-control-next {
+    width: auto;
+    padding: 20px; /* Add some space around the icons */
+    background-color: #17a2b8;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10; /* Make sure controls are on top of the carousel */
+  }

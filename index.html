@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Courses</title>
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light  shadow-sm" id="mainNav">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bold" href="index.html">COURSES</a>
+            </div>
+        </nav>
+            <div class="container-fluid" id="mainBody">
+                <div class="row">
+                    <div class="col-6 bg-light  rounded shadow" id="tableCont">
+                        <table class="table table-bordered mt-3 table-condensed text-center table-sm" id="tableTest">
+                            <thead>
+                              <tr>
+                                <th></th>
+                                <th id="MONDAY">Monday</th>
+                                <th id="TUESDAY">Tuesday</th>
+                                <th id="WEDNESDAY">Wednesday</th>
+                                <th id="THURSDAY">Thursday</th>
+                                <th id="FRIDAY">Friday</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td id="8:30">08:30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td id="9:30">09:30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td id="10:30">10:30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td id="11:30">11:30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td id="12:30">12:30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td id="13:30">13:30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td id="14:30">14:30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td id="15:30">15:30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td id="16:30">16:30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div class="col-6 bg-light rounded shadow" sytle="margin-bottom:5px">
+                            <div class="container" sytle="margin-bottom:5px">
+                                <div class="row mt-3">
+                                    <div class="col">
+                                        <input type="text" class="form-control" id="validationServer01" placeholder="Department"  style="font-size:0.8rem;">
+                                    </div>
+                                    <div class="col">
+                                        <select class="form-select" aria-label=".form-select-lg example" style="font-size:0.8rem;">
+                                            <option selected placeholder="Department" >Semester</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-12">
+                                        <button type="button" class="btn btn-outline-info" id="tstBtn" style="font-size:0.8rem;">
+                                            <i class="fas fa-check"></i> Add Must Courses
+                                        </button>
+                                        <button type="button" class="btn btn-outline-info" id="schedule" style="font-size:0.8rem;">
+                                            <i class="far fa-calendar-alt"></i> Schedule
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                  <div class="col-12">
+                                    <input class="form-check-input" type="checkbox" value="" id="checkCollison">
+                                      <label class="form-check-label" for="flexCheckChecked">
+                                        Check Collison
+                                      </label>
+                                   <input class="form-check-input" type="checkbox" value="" id="checkDepartment">
+                                      <label class="form-check-label" for="flexCheckChecked">
+                                        Check Department
+                                      </label> 
+                                  </div>
+                              </div>
+                              <div class="row mt-4" id="coursesDiv">
+                                    <hr class="hr hr-blurry" />
+                                      <h6 class="text-center" style="font-size: 0.8rem;">Added Courses</h6>
+                                      <div class="accordion" id="accordionExample" style="font-size: 0.8rem;">
+                                      </div>
+                                    <hr class="hr hr-blurry" />
+                              </div>
+                              <div class="row mt-4" id="addCourseDiv">
+                               <div class="d-flex align-items-stretch">
+                                <div class="col-sm-2">
+                                    <select class="form-select form-select" aria-label="Default select example" style="font-size: 0.65rem;" id="daySelect" >
+                                      <option selected value="MONDAY">Monday</option>
+                                      <option value="TUESDAY">Tuesday</option>
+                                      <option value="WEDNESDAY">Wednesday</option>
+                                      <option value="THURSDAY">Thursday</option>
+                                      <option value="FRIDAY">Friday</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-2">
+                                  <select class="form-select form-select" aria-label="Default select example" style="font-size: 0.65rem;" id="hour1" >
+                                    <option selected value="8:30">8:30</option>
+                                    <option value="9:30">9:30</option>
+                                    <option value="10:30">10:30</option>
+                                    <option value="11:30">11:30</option>
+                                    <option value="12:30">12:30</option>
+                                    <option value="13:30">13:30</option>
+                                    <option value="14:30">14:30</option>
+                                    <option value="15:30">15:30</option>
+                                    <option value="16:30">16:30</option>
+                                    <option value="17:30">17:30</option>
+                                  </select>
+                                </div>
+                                <div class="col-sm-2">
+                                  <select class="form-select form-select" aria-label="Default select example" style="font-size: 0.65rem;" id="hour2">
+                                      <option selected value="8:30">8:30</option>
+                                      <option value="9:30">9:30</option>
+                                      <option value="10:30">10:30</option>
+                                      <option value="11:30">11:30</option>
+                                      <option value="12:30">12:30</option>
+                                      <option value="13:30">13:30</option>
+                                      <option value="14:30">14:30</option>
+                                      <option value="15:30">15:30</option>
+                                      <option value="16:30">16:30</option>
+                                      <option value="17:30">17:30</option>
+                                  </select>
+                                </div>
+                                    <div class="col">
+                                      <input type="text" class="form-control form-control-sm" placeholder="Text"  style="font-size:0.8rem;" id="textSelect">
+                                    </div>
+                                    <div class="col">
+                                      <button type="button" class="btn btn-outline-info btn-sm"style="font-size:0.8rem;" id="addFromOutside">
+                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    </button>
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>       <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
